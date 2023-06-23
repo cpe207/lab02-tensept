@@ -1,0 +1,25 @@
+h3 {
+  text-align: center;
+  color: rgb(232, 173, 35);
+  font-style: italic;
+}
+
+.skill-header {
+  text-align: left;
+}
+
+.skill-container {
+  border: solid rgb(104, 65, 7);
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 16px;
+  margin-bottom: 8px;
+}
+
+h1 {
+  text-align: center;
+  color: brown;
+  font-style: italic;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
