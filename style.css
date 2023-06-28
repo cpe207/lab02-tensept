@@ -85,8 +85,8 @@ h1 {
 }
 
 .content-body {
-  flex: 1 1 auto;
-  padding: 1rem 1rem;
+  flex: auto;
+  padding: 1rem;
 }
 
 .title {
