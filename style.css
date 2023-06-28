@@ -18,8 +18,81 @@ h3 {
 }
 
 h1 {
-  text-align: center;
   color: brown;
-  font-style: italic;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-style: normal;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
+
+@media screen and (min-width:800px){
+    .flex-container {
+    flex-direction: row;
+  }
+}
+
+@media screen and (min-width:800px){
+    .programming {
+    flex-grow: 1;
+    order: 1;
+  }
+
+  .leadership {
+    flex-grow: 1;
+    order: 2;
+  }
+  .pacticed {
+    flex-grow: 1;
+    order: 1;
+  }
+
+  .competition {
+    flex-grow: 1;
+    order: 2;
+  }
+
+  .hobby {
+    flex-grow: 1;
+    order: 3;
+  }
+
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  border: 1px;
+  border-radius: 0.25rem;
+  margin: 15px;
+  background-color: aliceblue;
+  position: relative;
+  word-wrap: break-word;
+}
+
+
+.content-img {
+  border-top-left-radius: calc(0.25rem-1px);
+  border-top-right-radius: calc(0.25rem-1px);
+  width: 100%;
+}
+
+.img {
+  border-top-left-radius: calc(0.25rem-1px);
+  border-top-right-radius: calc(0.25rem-1px);
+}
+
+.content-body {
+  flex: 1 1 auto;
+  padding: 1rem 1rem;
+}
+
+.title {
+  margin-bottom: 0.5 rem;
+}
+
+.text:last-child {
+  margin-bottom: 0;
 }
